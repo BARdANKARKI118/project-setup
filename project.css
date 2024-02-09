@@ -1,0 +1,113 @@
+nav{
+background-size: cover;
+background-image: url(./uber\ eats.jpg);
+height: 600px;
+width: 100vw;
+}
+li{
+    list-style: none;
+}
+.bar{
+    display: flex;
+    width: fit-content;
+    justify-content: left;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    font-size: 20px;
+    margin-left: 30px;
+    
+}
+.bar2{
+    align-items: center;
+    display: flex;
+    justify-content: right;
+    gap: 100px;
+    margin-left: 800px;
+}
+.button1{
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    background-color: white;
+}
+.button2{
+    border: solid black;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 100px;
+}
+.order{
+    margin-top: 180px;
+    margin-left: 100px;
+    font-weight: bolder;
+}
+.search{
+    margin-left: 100px;
+    height: 30px;
+    width: 400px;
+    border-style: none;
+}
+.option{
+    height: 32px;
+    border-style: none;
+}
+.here{
+    height: 32px;
+    border-style: none;
+    background-color: black;
+    color: white;
+}
+.anker{
+    color: black;
+}
+.or{
+    margin-left: 90px;
+}
+.card-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.img1{
+    display: flex;
+    height: 200px;
+}
+.img2{
+    height: 200px;
+}
+.img3{
+    height: 200px;
+}
+.create{
+    color: black;
+}
+.add{
+    color: black;
+}
+.sign{
+    color: black;
+}
+.map{
+    width: 100vw;
+}
+.row{
+    margin-left: 10px;
+ 
+}
+main{
+    display: flex;
+}
+.list1{
+    padding: 10%;
+}
+.list2{
+    padding: 10%;
+}
+.list3{
+    padding: 10%;
+}
+
+
