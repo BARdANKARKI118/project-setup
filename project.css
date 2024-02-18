@@ -1,8 +1,9 @@
 nav{
 background-size: cover;
 background-image: url(./uber\ eats.jpg);
-height: 600px;
+height: 600px; 
 width: 100vw;
+overflow: hidden;
 }
 li{
     list-style: none;
@@ -108,6 +109,9 @@ main{
 }
 .list3{
     padding: 10%;
+}
+@media screen and (max-width:572px){
+    
 }
 
 

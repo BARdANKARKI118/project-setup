@@ -4,10 +4,11 @@
 <head>
     <title>Document</title>
     <link rel="stylesheet" href="project.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
-    <nav>
+    <nav <div data-aos="flip-up"></div>>
         <div class="bar">
             <h1 style="font-family: UberMove, sans-serif;">Uber Eats</h1>
             <div class="bar2">
@@ -36,21 +37,21 @@
         </p>
     </nav>
     <div class="card-group">
-        <div class="card">
+        <div class="card" data-aos="zoom-out">
             <img src="./img1.webp" class="img1" alt="...">
             <div class="card-body">
                 <h1 style="font-family: UberMove, sans-serif;">Feed your employees</h1>
                 <a class="create" href="">Create a business account</a>
             </div>
         </div>
-        <div class="card">
+        <div class="card" data-aos="zoom-out">
             <img src="./img2.webp" class="img2" alt="...">
             <div class="card-body">
                 <h1 style="font-family: UberMove, sans-serif;">Your resturant,delivered</h1>
                 <a class="add" href="">Add your resturant</a>
             </div>
         </div>
-        <div class="card">
+        <div class="card" data-aos="zoom-out">
             <img src="./img3.webp" class="img3" alt="...">
     <h1 style="font-family:UberMove, sans-serif ;">Deliver with Uber Eats</h1>
             <a class="sign" href="">Sign up to deliver</a>
@@ -88,6 +89,10 @@
                     </ol>
                 </div>
             </main> 
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script>
+                AOS.init();
+              </script>
 
 </body>
 
